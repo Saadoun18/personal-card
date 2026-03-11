@@ -1,11 +1,15 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Personal Card
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
+A simple personal digital card built with HTML, CSS, and JavaScript as part of my learning journey with Scrimba.
+
+I also made some custom edits and improvements to practice my front-end development skills.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜

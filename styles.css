@@ -82,3 +82,14 @@ button {
     margin: auto;
     padding: 20px;
 }
+
+.ar, .arf {
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.hide {
+  display: none;
+}

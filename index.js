@@ -87,3 +87,25 @@ function favouriteFruit(theme) {
 }
 
 
+/////////////////
+// MY OWN CODE //
+/////////////////
+
+document.addEventListener("DOMContentLoaded", function(){
+    // button
+    const carab = document.getElementById("arab"); // button to arabic
+    const ceng = document.getElementById("eng"); // button to english
+    // card
+    const ara = document.querySelector(".ar"); // arbic card
+    const eng = document.querySelector(".en"); // english card
+
+    carab.onclick = function () { // when click on the arabic button
+        ara.classList.remove("hide"); // show arabic card
+        eng.classList.add("hide"); // hide english card
+    }
+
+    ceng.onclick = function () { // when click on the english button
+        ara.classList.add("hide"); // hide arabic card
+        eng.classList.remove("hide"); // show english card
+    }
+});

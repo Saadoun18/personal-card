@@ -3,6 +3,9 @@
     <head>
         <link rel="stylesheet" href="styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
         <script src="index.js"></script>
     </head>
     <body>
@@ -10,18 +13,33 @@
         Challenge 1:
         Write the HTML for your personal website.
         -->
-        <div class="card">
+        <div class="card en">
             <img src="Saeed.png" alt="Saeed"/>
             <h1>Hi, my name is Saeed</h1>
             <h2>Fun facts about me:</h2>
             <ul>
                 <li>24 years old</li>
                 <li>Live in Yemen</li>
-                <li>Love Allah and Muslims</li>
+                <li>Proud Muslim</li>
             </ul>
             <p>Please connect with me on <a href="https://www.linkedin.com/in/saeedghanem/" target="_blank">LinkedIn here.</a></p>
             <input type="email" placeholder="Enter Email..."/>
             <button>Join newsletter</button>
+            <button id="arab" class="arf">العـــربيــة</button>
+        </div>
+        <div class="card ar hide" dir="rtl">
+            <img src="Saeed.png" alt="سعيد"/>
+            <h1>مرحبا, اسمــي سـعـــيد</h1>
+            <h2>حــقائق ممتعة عنـي:</h2>
+            <ul>
+                <li>24 سنـة</li>
+                <li>أعيـش فـي اليـمن</li>
+                <li>مـسلــم فــخور</li>
+            </ul>
+            <p>يرجى التواصل معي عبر <a href="https://www.linkedin.com/in/saeedghanem/" target="_blank">لينكدن هنا.</a></p>
+            <input type="email" placeholder="أدخل بريدك..." class="arf"/>
+            <button class="arf">إشترك في النشرة</button>
+            <button id="eng">English</button>
         </div>
     </body>
 </html>
